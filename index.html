@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <h2>23 BOXING</h2>
+        <ul id="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#">Membership</a></li>
+        </ul>
+    </div>
+    <section id ='home'>
+        <div class="hero">
+
+        </div>
+        <div class="caption">
+            <h1>Welcome to 23 Boxing</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button>Join</button>
+            </div>
+
+    </section>
+
+    <section id="services">
+        <div class="title">
+            <h1>Our Services</h1>
+        </div>
+        <div class="card">
+            <div class="card-image pic-1"></div>
+            <h2>Sparring</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Et leo duis ut diam quam. Sed arcu non odio euismod lacinia at quis. </p>
+        </div>
+
+        <div class="card">
+            <div class="card-image pic-2"></div>
+            <h2>Individual Training</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Et leo duis ut diam quam. Sed arcu non odio euismod lacinia at quis. </p>
+        </div>
+
+        <div class="card">
+            <div class="card-image pic-3"></div>
+            <h2>Group Training</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Et leo duis ut diam quam. Sed arcu non odio euismod lacinia at quis. </p>
+        </div>
+    </section>
+
+    <section id="trainers">
+        <div class="title">
+            <h1>Trainers</h1>
+        </div>
+        <div class="card">
+            <div class="card-image tip-1"></div>
+            <h2>Jack</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Et leo duis ut diam quam. Sed arcu non odio euismod lacinia at quis.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image tip-2"></div>
+            <h2>Mitt Queen</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Et leo duis ut diam quam. Sed arcu non odio euismod lacinia at quis.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image tip-3"></div>
+            <h2>Brian</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Et leo duis ut diam quam. Sed arcu non odio euismod lacinia at quis.</p>
+        </div>
+    </section>
+
+    <section id="Membership">
+        <h1>Become A Member</h1>
+        <div class="form">
+            <form method="get"  id="joinForm">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter First Name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter Last Name">
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="years" placeholder="Enter Age">
+
+            <label for="exp">Experience Level</label>
+            <input type="text" id="exp" name="epxerience" placeholder="Experience">
+
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <script>
+            var joinform = document.getElementById("joinForm");
+         joinform.addEventListener("submit", joins);
+         </script>
+    </section>
+</body>
+</html>
